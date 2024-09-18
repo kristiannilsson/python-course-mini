@@ -1,0 +1,39 @@
+1. Variables and User Input: Write a program that asks the user for their name and age, then prints a message saying how many years they have until they turn 100.
+
+
+
+2. Loop Through Numbers: Write a program that uses a loop to print numbers from 1 to 20. Include both a for loop and a while loop version.
+
+
+
+3. List and Loops: Create a program that filters out and prints only even numbers from a given list of numbers. Starter Code:
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# TODO: Loop through the list 'numbers' and print only even numbers
+
+
+
+4. Selection (If-Else Statements): Write a program that asks the user to enter a number. If the number is divisible by 3, print "Fizz". If it's divisible by 5, print "Buzz". If it's divisible by both 3 and 5, print "FizzBuzz". Otherwise, just print the number.
+
+
+
+5. List Manipulation: Given the list colors = ["red", "green", "blue", "yellow"], write a program that does the following:
+- Adds "orange" to the end of the list.
+- Replaces "blue" with "cyan".
+- Prints out the index of "yellow".
+- Removes "green" from the list and prints the final list.
+
+
+
+6. Math Operations and Input: Write a program that calculates the area of a rectangle. The program should ask the user to input the width and height of the rectangle and then print the area. Starter Code:
+
+width = float(input("Enter the width of the rectangle: "))
+height = None  # TODO: Ask the user for the height
+# TODO: Calculate the area of the rectangle and print it
+
+
+
+7. Selection and String Manipulation: Write a program that takes a string input from the user and prints "This is a palindrome" if the string is a palindrome (reads the same backward as forward) and "This is not a palindrome" otherwise. Starter Code:
+
+user_input = input("Enter a string: ")
+# TODO: Check if 'user_input' is a palindrome and print the result

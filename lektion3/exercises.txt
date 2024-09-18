@@ -1,0 +1,8 @@
+1. Create a basic Flask app with a single route (/) that returns "Hello, World!".
+2. Create a Flask route that takes a name as a URL parameter and greets the user by name.
+3. Create a Flask app that accepts user input from a form and displays it back to the user.
+
+For CSV files to use with pandas, visit www.kaggle.com
+4. Load a CSV file into a Pandas DataFrame and display the first five rows.
+5. Load a CSV file, then filter a column based on a condition of your choice, then write to a new CSV file.
+6. Display a CSV file in a Flask route. 

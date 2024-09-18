@@ -1,0 +1,58 @@
+1. Function with Parameters and Return Value
+
+def multiply(a, b):
+    return a * b
+result = multiply(4, 5)
+print(result)
+
+
+
+2. Working with Dictionaries
+
+book = {
+  "title": "The Catcher in the Rye",
+  "author": "J.D. Salinger",
+  "year": 1951
+}
+
+book["rating"] = 4.5
+del book["year"]
+
+for key, value in book.items():
+    print(key, ":", value)
+
+
+
+3. Default and Keyword Arguments in Functions
+
+def create_profile(name, age, country="Unknown"):
+    print(f"{name} is {age} years old and comes from {country}.")
+
+create_profile("Alice", 30)
+create_profile("Bob", 25, "Canada")
+
+
+
+4. Function with *args and **kwargs
+
+def print_details(name, *hobbies, **details):
+    print(f"Name: {name}")
+    print("Hobbies:", ", ".join(hobbies))
+    for key, value in details.items():
+        print(f"{key.capitalize()}: {value}")
+
+print_details("Alice", "reading", "hiking", age=25, city="Seattle")
+
+5. def count_lines_in_file(file_path):
+    try:
+        with open(file_path, 'r') as file:
+            lines = file.readlines()
+            total_lines = len(lines)
+            print(f'Total number of lines: {total_lines}')
+
+6. def write_numbers_to_file(file_path, n):
+    try:
+        with open(file_path, 'w') as file:
+            for i in range(1, n + 1):
+                file.write(f"{i}\n")
+        print(f'Numbers from 1 to {n} have been written to {file_path}.')

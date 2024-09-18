@@ -1,0 +1,30 @@
+1. Function with Parameters and Return Value
+Task: Write a function named multiply that takes two parameters and returns their product. Then, call this function with the numbers 4 and 5, and print the result.
+
+2. Working with Dictionaries
+Task: Create a dictionary named book with keys title, author,
+and year.
+Set values to your favorite book's details.
+Write code to add a new key-value pair
+rating with a value of your choice.
+Then, remove the year key and iterate over the dictionary,
+printing both keys and values.
+
+3. Default and Keyword Arguments in Functions
+Task: Write a function named create_profile that takes three parameters: name, age, and country with a default value of "Unknown". It should print a sentence incorporating these values. Then, call the function once with just the name and age provided, and another time with all three arguments provided.
+
+4. Function with *args and **kwargs
+Task: Write a function named print_details that takes one fixed
+argument name, any number of positional arguments
+*hobbies, and any number of keyword arguments **details.
+It should print the name, then list all hobbies and details provided.
+
+Starter code:
+# Example call to the function
+print_details("Alice", "reading", "hiking", age=25, city="Seattle")
+
+5. Write a Python function count_lines_in_file(file_path) that
+opens a text file, counts how many lines the file contains,
+and prints the total number of lines
+
+6. Write a Python function write_numbers_to_file(file_path, n) that writes the numbers from 1 to n (inclusive) into a file, each number on a new line.

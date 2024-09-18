@@ -1,0 +1,73 @@
+1. Variables and User Input:
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+years_until_100 = 100 - age
+print(f"{name}, you will turn 100 in {years_until_100} years.")
+
+
+
+2. Loop Through Numbers:
+
+# For loop version
+for i in range(1, 21):
+    print(i)
+
+# While loop version
+i = 1
+while i <= 20:
+    print(i)
+    i += 1
+
+
+
+3. List and Loops:
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for number in numbers:
+    if number % 2 == 0:  # Added line
+        print(number)  # Added line
+
+
+
+4. Selection (If-Else Statements):
+
+number = int(input("Enter a number: "))
+if number % 3 == 0 and number % 5 == 0:
+    print("FizzBuzz")
+elif number % 3 == 0:
+    print("Fizz")
+elif number % 5 == 0:
+    print("Buzz")
+else:
+    print(number)
+
+
+
+5. List Manipulation:
+
+colors = ["red", "green", "blue", "yellow"]
+colors.append("orange")
+colors[colors.index("blue")] = "cyan"
+print("Index of 'yellow':", colors.index("yellow"))
+colors.remove("green")
+print("Final list:", colors)
+
+
+
+6. Math Operations and Input:
+
+width = float(input("Enter the width of the rectangle: "))
+height = float(input("Enter the height of the rectangle: "))  # Added line
+area = width * height  # Added line
+print("The area of the rectangle is:", area)  # Added line
+
+
+
+7.  Selection and String Manipulation:
+
+user_input = input("Enter a string: ")
+if user_input == user_input[::-1]:  # Added line
+    print("This is a palindrome")  # Added line
+else:
+    print("This is not a palindrome")  # Added line
